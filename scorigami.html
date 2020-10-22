@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
+        <title>Aidan Massie</title>
+        <link rel="stylesheet" href="https://use.typekit.net/sms8wfk.css">
+        <link rel="stylesheet" href="indproject.css">
+        <link rel="stylesheet" href="https://use.typekit.net/dot7zdv.css">
+    </head>
+    <body>
+        <div class="title">
+            <p>
+                <div class="thin">AIDAN</div>MASSIE
+            </p>
+          </div>
+         
+         <ul class="navBar">
+            <li class="navBar"><a href="projects.html">School Projects</a></li>
+            <li class="navBar"><a href="photovideo.html">Video</a></li>
+            
+            <li class="navBar"><a href="index.html">About</a></li>
+        </ul>
+
+        <div class="container">
+            <div class="textContainer">
+                <h1 class="hello"><span class="highlight">NFL SCORIGAMI</span></h1>
+            <br />
+            <br />
+            <br />
+            <img src="scorigami.png" class="image" alt="scorigami" />
+            <p class="textSubTitle"><span class="highlight">Home Screen of NFL Scorigami</span></p>
+            <p class="text">
+                What is NFL Scorigami and why did I make this my final? <br />
+                NFL Scorigami is a simple way of describing each unique ending <br />
+                score to a professional football game. This has no impact on <br />
+                the game whatsoever–it’s just a database that shows how many <br />
+                times a certain score has happened, when the last time it happened <br />
+                was, or even if a certain score exists. I made this my project <br />
+                because I’m a huge sports guy. Not only am I a huge sports guy, but <br />
+                I’m a huge sports stathead. Something about scrolling through <br />
+                websites and charts and tables looking at numbers for individuals, <br />
+                their teams, comparing them to other teams, other players, and the <br />
+                history of the sport is an absolute blast to me. So, since I <br />
+                enjoy this so much, I decided to make a place where users can <br />
+                explore the NFL score database. While Scorigami isn’t something <br />
+                I made, there’s no simple way to search the database, which is where <br />
+                my website comes into play. What did I do? For starters, since I <br />
+                was not confident in my API-calling skills, I immediately went for <br />
+                the designing first (which I know probably wasn’t the smartest idea, but <br />
+                I did it anyway). I wanted the fun and joking atmosphere that Scorigami <br />
+                creates to become somewhat serious, so I made the website look <br />
+                professional and attempted to give it a serious tone, as if it were <br />
+                truly impacting the game of football. I created a mockup of what I <br />
+                wanted my homepage and overall vibe of my website to be.
+            </p>
+                <br />
+                <br />
+                <img src="scorigami_home3.png" class="image" alt="scorigami concept" />
+                <p class="textSubTitle"><span class="highlight">Original Concept of NFL Scorigami Home Screen</span></p>
+            <p class="text">
+                Since there was no true API for what I was wanting, I had to make <br />
+                my own API. I used Pro Football Reference’s database, that gave me the <br />
+                count, the last time it happened, and the scores I needed to identify them. <br />
+                I scraped all of the data from the site into a .csv format, then <br />
+                reformatted it into a .json file. I then made a simple call in my <br />
+                javascript to the json file which is being hosted on the same server as <br />
+                the actual website. Through this, the user is able to enter in a winning <br />
+                and losing score and search 1000+ lines of the .json file. </p>
+                <br />
+                <br />
+                <img src="search.png" class="image" alt="search database page" />
+                <p class="textSubTitle"><span class="highlight">Scorigami Database Search Page</span></p>
+                <p class="text">
+                You can find all of my HTML, CSS, images, javascript, and data on <b><a href="https://github.com/aidanmassie/scorigami_final">Github</a></b>.
+                <br />
+                <br />
+                You can view the website itself <b><a href="https://aidanmassie.github.io/scorigami_final/index.html">here</a></b>!
+            </p>
+            </p>
+            </div>
+        </div>
+    </body>
+</html>
