@@ -110,7 +110,7 @@ transform: scaleX(1);
   font-family: proxima-nova,sans-serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 90px;
+  font-size: 80px;
   margin-right: 100px;
   margin-bottom: -20px;
   text-align: left;
@@ -129,7 +129,7 @@ transform: scaleX(1);
 
 .babyimage{
   width: 718px;
-  height: 410px;
+  height: 430px;
 }
 
 .text{
