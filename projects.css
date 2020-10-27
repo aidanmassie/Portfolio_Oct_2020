@@ -158,6 +158,11 @@ transform: scaleX(1);
     height: 410px;
 }
 
+iframe{
+  height: 480px;
+  width: 720px;
+}
+
 .text{
     font-family: proxima-nova,sans-serif;
     font-weight: 400;
@@ -205,21 +210,60 @@ transform: scaleX(1);
   }
 
   @media screen and (max-width: 375px) {
+    .name{
+      height: 36px;
+      margin-left: -70px;
+      margin-top: 25px;
+    }
+
+    .header{
+      margin-top: -20px;
+    }
+
     .navBar{
-        font-size: 12px;
-        text-align: center;
-        margin: 20px 60px;
+      font-size: 12px;
+      margin: 0px auto;
+  }
+
+    .icons{
+      height: 17px;
+      width: 17px;
     }
 
-    .title{
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .container{
-        flex-direction: column;
+    .image{
+        width: 359px;
+        height: 186px;
         justify-content: center;
-        align-items: center;
-        margin-right: 300px;
+        margin-left: 0px;
     }
+
+    .babyimage{
+      width: 359px;
+      height: 186px;
+      justify-content: center;
+      margin-left: 0px;
+  }
+
+  iframe{
+    width: 360px;
+    height: 240px;
+}
+
+    .hello{
+      margin-left: 0px;
+      font-size: 64px;
+    }
+
+    .textContainer{
+      width: 400px;
+      margin-left: 30px;
+    }
+
+  .text{
+    font-size: 12px;
+  }
+
+  .textTitle{
+    font-size: 18px;
+  }
   }
