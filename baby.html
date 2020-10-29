@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="header">
-            <img src="aidanmassie.svg" class="name" alt="logo" />
+            <a href="index.html"><img src="aidanmassie.png" class="name" alt="logo" /></a>
             <nav>
                 <ul class="icons">
                     <li><a href="https://www.linkedin.com/in/aidan-massie-920bab195/" target="_blank"><img src="linkedin.svg" class="icons" /></a></li>
@@ -20,10 +20,9 @@
       </div>
          
          <ul class="navBar">
-            <li class="navBar"><a href="projects.html">School Projects</a></li>
-            <li class="navBar"><a href="photovideo.html">Video</a></li>
-            
-            <li class="navBar"><a href="index.html">About</a></li>
+            <li class="navBar"><a href="projects.html">SCHOOL PROJECTS</a></li>
+            <li class="navBar"><a href="photovideo.html">VIDEO</a></li>
+            <li class="navBar"><a href="index.html">ABOUT</a></li>
         </ul>
 
         <div class="container">
@@ -35,89 +34,97 @@
             <img src="candybaby.png" class="babyimage" alt="baby head in a bowl" />
             <p class="textSubTitle"><span class="highlight">Final Design of Taking Candy From A Baby Project</span></p>
             <p class="text">
-                I worked on this project with the amazing Julia Fernandez. <br />
-                You can find her website <a href="https://jftech-art.com/" class="text" target="_blank">here</a>! <br />
+                I worked on this project with the amazing Julia Fernandez. 
+                You can find her website <a href="https://jftech-art.com/" class="link" target="_blank">here</a>! 
                 <br />
-                The initial plan included LEDs behind the eyes, a servo motor <br />
-                spinning the baby’s head, and a recording of a baby crying when an <br />
-                unsuspecting trick-or-treater stuck their hand in the bowl. We <br />
-                would fix an ultrasonic sensor to the inside of the bowl to detect <br />
-                a hand. We considered fixing the head upright or sliced in half <br />
-                and fixed like a mask on the bottom of the bowl.<br />
                 <br />
-                As we began to map this out, it became apparent that sawing the <br />
-                baby head in half was not very practical or a good use of our <br />
-                time. Additionally, the eyes of the baby seemed to be impossible <br />
-                to remove; they were embedded in a thick layer of plastic. Upon <br />
-                those discoveries, Aidan and I decided it would be best to ditch <br />
-                the LEDs in the head and try animating another part of the baby <br />
-                in place of it. A third a final sketch was drafted.<br />
+                The initial plan included LEDs behind the eyes, a servo motor 
+                spinning the baby’s head, and a recording of a baby crying when an 
+                unsuspecting trick-or-treater stuck their hand in the bowl. We 
+                would fix an ultrasonic sensor to the inside of the bowl to detect 
+                a hand. We considered fixing the head upright or sliced in half 
+                and fixed like a mask on the bottom of the bowl.
                 <br />
-                In this sketch, we designed a platform for the servo motors to <br />
-                be mounted on. The baby’s head and arm would be mounted on the <br />
-                servo motor, and all of the wiring would be hidden underneath <br />
-                the platform. A more complete blueprint of the structure of the <br />
-                platform is seen in this blueprint:<br />
+                <br />
+                As we began to map this out, it became apparent that sawing the 
+                baby head in half was not very practical or a good use of our 
+                time. Additionally, the eyes of the baby seemed to be impossible 
+                to remove; they were embedded in a thick layer of plastic. Upon 
+                those discoveries, Aidan and I decided it would be best to ditch 
+                the LEDs in the head and try animating another part of the baby 
+                in place of it. A third a final sketch was drafted.
+                <br />
+                <br />
+                In this sketch, we designed a platform for the servo motors to 
+                be mounted on. The baby’s head and arm would be mounted on the 
+                servo motor, and all of the wiring would be hidden underneath 
+                the platform. A more complete blueprint of the structure of the 
+                platform is seen in this blueprint:
                 <br />
                 <br />
                 <img src="wiring.JPG" class="image" alt="blueprint" />
                 <p class="textSubTitle"><span class="highlight">Blueprint of Arduino Wiring in the Bowl</span></p>
             </p>
                 <p class="text">
-                As can be seen in the code above, we declared two separate servo <br />
-                motors: one for the baby’s head and one for the baby’s hand. <br />
-                After ensuring that both servo motor’s functioned properly, we <br />
-                moved onto connecting them to the ultrasonic sensor. Though <br />
-                the sensor could detect the full length of the room at 401 <br />
-                inches, we set the range for 4 inches. At this point, we were <br />
-                confronted with a problem.<br />
+                As can be seen in the code above, we declared two separate servo 
+                motors: one for the baby’s head and one for the baby’s hand.
+                After ensuring that both servo motor’s functioned properly, we 
+                moved onto connecting them to the ultrasonic sensor. Though 
+                the sensor could detect the full length of the room at 401 
+                inches, we set the range for 4 inches. At this point, we were 
+                confronted with a problem.
                 <br />
-                Problem: The ultrasonic sensor kept mistaking the moving baby <br />
-                extremities for human movement reaching into the bowl. The <br />
-                amount of space in the bowl was just too tight for the sensor <br />
-                to be able to detect the single motion of a hand moving in <br />
-                front of it. We also realized that if the trick-or-treater <br />
-                stuck there hand in the bowl at any other position aside from <br />
-                where the sensor was aimed, there would be no special effect, <br />
-                defeating the purpose of the sensor in the first place.<br />
                 <br />
-                Solution: We decided that we should point the ultrasonic sensor <br />
-                outside of the front of the bowl to detect when a person is <br />
-                standing in front of it, close enough to reach for candy. <br />
-                Though this isn’t what we wanted ideally, there seemed to be <br />
-                no other option. We remapped the range of the ultrasonic sensor <br />
-                to 20 inches, a distance we decided on after pretending to reach <br />
-                for candy and measuring how close the average person stood when <br />
-                reaching. Below is a timelapse of the project setup.<br />
+                Problem: The ultrasonic sensor kept mistaking the moving baby 
+                extremities for human movement reaching into the bowl. The 
+                amount of space in the bowl was just too tight for the sensor 
+                to be able to detect the single motion of a hand moving in 
+                front of it. We also realized that if the trick-or-treater 
+                stuck there hand in the bowl at any other position aside from 
+                where the sensor was aimed, there would be no special effect, 
+                defeating the purpose of the sensor in the first place.
+                <br />
+                <br />
+                Solution: We decided that we should point the ultrasonic sensor 
+                outside of the front of the bowl to detect when a person is 
+                standing in front of it, close enough to reach for candy. 
+                Though this isn’t what we wanted ideally, there seemed to be 
+                no other option. We remapped the range of the ultrasonic sensor 
+                to 20 inches, a distance we decided on after pretending to reach 
+                for candy and measuring how close the average person stood when 
+                reaching. Below is a timelapse of the project setup.
             </p>
                 <br />
                 <br />
                 <iframe width="720" height="480" src="https://www.youtube.com/embed/a6-GXMfBMuI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <p class="textSubTitle"><span class="highlight">Timelapse of Bowl Setup</span></p>
                 <p class="text">
-                Though this project involves literally taking candy from a <br />
-                baby, making it was not like taking candy from a baby. We were <br />
-                faced with a number of obstacles including: The baby’s head being <br />
-                too heavy for the motor, the unreliability of the ultrasonic sensor <br />
-                mapping the ultrasonic sensor, and fitting all of the baby parts <br />
-                in the bucket. <br />
+                Though this project involves literally taking candy from a 
+                baby, making it was not like taking candy from a baby. We were 
+                faced with a number of obstacles including: The baby’s head being 
+                too heavy for the motor, the unreliability of the ultrasonic sensor 
+                mapping the ultrasonic sensor, and fitting all of the baby parts 
+                in the bucket. 
                 <br />
-                Despite these challenges, we are pleased with our final product. <br />
-                We’ve learned a lot about computation this semester, and it was <br />
-                really exciting to be able to use our new skills in combination <br />
-                with some creativity to make something! In our project we <br />
-                revisited topics discussed in class. These topics were: Serial <br />
-                communication (we used this to connect sound with the ultrasonic <br />
-                sensor), analog input and output (the ultrasonic sensor (I) and <br />
-                servo motors (O)), and the p5.js sound library (the audio of <br />
-                the crying baby).<br />
                 <br />
-                Special thanks to DanO for giving us the ultrasonic sensor, Arnab <br />
-                for helping us work out the code for the audio, and David for <br />
-                also helping us with code and playing lots of stress-relieving <br />
-                ping pong games in between work.<br />
+                Despite these challenges, we are pleased with our final product. 
+                We’ve learned a lot about computation this semester, and it was 
+                really exciting to be able to use our new skills in combination 
+                with some creativity to make something! In our project we 
+                revisited topics discussed in class. These topics were: Serial 
+                communication (we used this to connect sound with the ultrasonic 
+                sensor), analog input and output (the ultrasonic sensor (I) and 
+                servo motors (O)), and the p5.js sound library (the audio of 
+                the crying baby).
                 <br />
-                Below is a video of the final product in use.<br />
+                <br />
+                Special thanks to DanO for giving us the ultrasonic sensor, Arnab 
+                for helping us work out the code for the audio, and David for 
+                also helping us with code and playing lots of stress-relieving 
+                ping pong games in between work.
+                <br />
+                <br />
+                Below is a video of the final product in use.
                 <br />
                 <br />
                 <iframe width="720" height="480" src="https://www.youtube.com/embed/VwSRtxFzUtI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

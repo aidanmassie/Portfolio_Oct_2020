@@ -14,8 +14,9 @@
 }
 
 .name{
-  height: 96px;
-  margin-left: -170px;
+  height: 40px;
+  margin-left: -135px;
+  padding-top: 30px;
 }
 
 .navBar{
@@ -26,7 +27,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 40px;
+    padding-left: 30px;
     margin-right: 60px;
     margin-top: 0px;
 }
@@ -123,6 +124,10 @@ transform: scaleX(1);
     font-size: 20px;
   }
 
+  .link{
+    font-weight: 700;
+  }
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -136,6 +141,7 @@ transform: scaleX(1);
     padding-top: -10px;
     text-align: left;
     text-decoration: none;
+    width: 650px;
 } 
 
 .hello{

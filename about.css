@@ -14,8 +14,9 @@
 }
 
 .name{
-  height: 96px;
-  margin-left: -170px;
+  height: 40px;
+  margin-left: -135px;
+  padding-top: 30px;
 }
 
 .navBar{
@@ -101,6 +102,7 @@ transform: scaleX(1);
 .textContainer{
     flex-direction: column;
     padding-top: -20px;
+    width: 600px;
 }
 
 .aboutPic{
@@ -125,6 +127,10 @@ transform: scaleX(1);
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+  }
+
+  .link{
+    font-weight: 700;
   }
 
   @media screen and (max-width: 1200px) {
