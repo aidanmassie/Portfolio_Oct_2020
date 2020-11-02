@@ -153,7 +153,7 @@ transform: scaleX(1);
     .name{
       height: 24px;
       margin-left: -60px;
-      margin-top: 2px;
+      margin-top: -1px;
     }
 
     .header{
