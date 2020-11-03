@@ -101,7 +101,7 @@ transform: scaleX(1);
 
 .textContainer{
     flex-direction: column;
-    padding-top: -20px;
+    padding-top: 0px;
     width: 600px;
 }
 
@@ -120,6 +120,7 @@ transform: scaleX(1);
     margin-right: 100px;
     margin-bottom: -20px;
     text-align: left;
+    margin-top: 20px;
   }
 
   .text{
@@ -141,6 +142,7 @@ transform: scaleX(1);
 
     .textContainer{
       margin-top: -45px;
+      padding-top: 30px;
     }
 
     .aboutPic{
@@ -187,6 +189,7 @@ transform: scaleX(1);
     .textContainer{
       width: 400px;
       margin-left: 70px;
+      padding-top: 30px;
     }
 
     .text{
