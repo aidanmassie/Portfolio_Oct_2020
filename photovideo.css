@@ -126,6 +126,7 @@ transform: scaleX(1);
 
   .link{
     font-weight: 700;
+    font-size: 20px;
   }
 
 .container{
@@ -266,6 +267,10 @@ iframe{
     }
 
   .text{
+    font-size: 12px;
+  }
+
+  .link{
     font-size: 12px;
   }
 
