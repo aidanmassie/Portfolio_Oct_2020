@@ -60,17 +60,17 @@
   transform: scaleX(1);
   }
   
-  .textTitle a{
+  .text a{
     position: relative;
     text-decoration: none;
     color: black;
   }
   
-  .textTitle a:hover{
+  .text a:hover{
     color: black;
   }
   
-  .textTitle a:before{
+  .text a:before{
     content: "";
     position: absolute;
     width: 100%;
@@ -83,56 +83,10 @@
     transition: all 0.3s ease-in-out 0s;
   }
   
-  .textTitle a:hover:before{
+  .text a:hover:before{
   visibility: visible;
   transform: scaleX(1);
   }
-  
-  .container{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      margin: 50px auto;
-  }
-
-  .podcast{
-    height: 130px;
-    width: 640px;
-  }
-  
-  .textContainer{
-      flex-direction: column;
-      padding-top: -20px;
-  }
-  
-  .aboutPic{
-      margin-left: -30px;
-      margin-top: 25px;
-      width: 400px;
-      height: 600px;
-    }
-  
-    .hello{
-      font-family: proxima-nova,sans-serif;
-      font-weight: 700;
-      font-style: italic;
-      font-size: 90px;
-      margin-right: 100px;
-      margin-bottom: -20px;
-      text-align: left;
-    }
-  
-    .text{
-      font-family: proxima-nova,sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 20px;
-    }
-  
-    .link{
-      font-weight: 700;
-      font-size: 20px;
-    }
   
   .container{
       display: flex;
@@ -142,78 +96,93 @@
       margin-top: -20px;
   }
   
+  .hello_scorigami{
+    font-family: proxima-nova,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 80px;
+    margin-right: 100px;
+    margin-bottom: -20px;
+    text-align: left;
+  }
+  
+  .hello_football{
+    font-family: proxima-nova,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 80px;
+    margin-right: 100px;
+    margin-bottom: -20px;
+    text-align: left;
+  }
+  
+  .hello_baby{
+    font-family: proxima-nova,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 80px;
+    margin-right: 100px;
+    margin-bottom: -20px;
+    text-align: left;
+  }
+  
   .textContainer{
-      flex-direction: row;
+      flex-direction: column;
       padding-top: -10px;
       text-align: left;
-      text-decoration: none;
       width: 650px;
   } 
   
-  .hello{
-      font-family: proxima-nova,sans-serif;
-      font-weight: 700;
-      font-style: italic;
-      font-size: 80px;
-      margin-right: 100px;
-      margin-bottom: -20px;
-      text-align: left;
-    }
-  
   .image{
-      width: 540;
-      height: 540;
-      padding-left: 45px;
-  }
-
-  .imaimage{
-    width: 600;
-    height: 600;
+    width: 540;
+    height: 540;
     padding-left: 45px;
 }
+
+.scanimage{
+    width: 600;
+    height: 540;
+    padding-left: 45px;
+}
+
+    .long_image{
+        width: 660;
+        height: 150;
+    }
   
-  .babyimage{
-      width: 718px;
-      height: 410px;
-  }
-  
-  iframe{
-    height: 480px;
-    width: 720px;
-  }
-  
+    .long_image2{
+        width: 680;
+        height: 140;
+    }
+
+    .long_image3{
+        width: 700;
+        height: 350;
+    }
+
   .text{
       font-family: proxima-nova,sans-serif;
       font-weight: 400;
       font-style: normal;
       font-size: 20px;
-      text-decoration: none;
     }
   
-    .textTitle{
+    .link{
       font-family: proxima-nova,sans-serif;
       font-weight: 700;
       font-style: normal;
-      font-size: 24px;
-      color: black;
-      text-decoration: none;
+      font-size: 20px;
+    }
+  
+    .textSubTitle{
+      font-family: proxima-nova,sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 16px;
     }
   
     .highlight{
       background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #50c878 50%);
-      text-decoration: none;
-    }
-  
-    @media screen and (max-width: 1010px) {
-      .navBar{
-          font-size: 16px;
-      }
-  
-      .container{
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-      }
     }
   
     @media screen and (max-width: 768px) {
@@ -240,9 +209,9 @@
       }
   
       .navBar{
-        font-size: 12px;
-        margin: 0px auto;
-    }
+          font-size: 12px;
+          margin: 0px auto;
+      }
   
       .icons{
         height: 17px;
@@ -250,22 +219,42 @@
       }
   
       .image{
-          width: 360px;
-          height: 360px;
-          justify-content: center;
+          width: 359px;
+          height: 280px;
           padding-left: 0px;
       }
+  
+      .long_image{
+        width: 360;
+        height: 280;
+    }
+  
+    .long_image2{
+        width: 360;
+        height: 180;
+    }
 
-      .podcast{
-          width: 360px;
-      }
+    .long_image3{
+        width: 400;
+        height: 40;
+    }
   
     iframe{
       width: 360px;
       height: 240px;
   }
   
-      .hello{
+      .hello_scorigami{
+        margin-left: 0px;
+        font-size: 64px;
+      }
+  
+      .hello_football{
+        margin-left: -20px;
+        font-size: 64px;
+      }
+  
+      .hello_baby{
         margin-left: 0px;
         font-size: 64px;
       }
