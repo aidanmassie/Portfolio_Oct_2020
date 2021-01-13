@@ -220,23 +220,29 @@
   
       .image{
           width: 359px;
-          height: 280px;
+          height: 360px;
           padding-left: 0px;
       }
+
+      .scanimage{
+        width: 359px;
+        height: 280px;
+        padding-left: 0px;
+    }
   
       .long_image{
         width: 360;
-        height: 280;
+        height: 80;
     }
   
     .long_image2{
         width: 360;
-        height: 180;
+        height: 70;
     }
 
     .long_image3{
-        width: 400;
-        height: 40;
+        width: 360;
+        height: 160;
     }
   
     iframe{
