@@ -143,6 +143,11 @@ transform: scaleX(1);
   height: 430px;
 }
 
+.selfieimage{
+  width: 718px;
+  height: 480px;
+}
+
 .text{
     font-family: proxima-nova,sans-serif;
     font-weight: 400;
