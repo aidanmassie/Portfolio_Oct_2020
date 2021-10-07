@@ -235,10 +235,16 @@
         height: 280px;
         padding-left: 0px;
     }
+
+    .nnekaimg{
+      width: 360;
+      height: 450;
+      padding-left: 0px;
+    }
   
       .long_image{
         width: 360;
-        height: 80;
+        height: 140;
     }
   
     .long_image2{
