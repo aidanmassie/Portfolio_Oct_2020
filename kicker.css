@@ -247,7 +247,7 @@ html {background-color: white}
   
       .long_image{
         width: 360;
-        height: 140;
+        height: 200;
     }
   
     .long_image2{
@@ -271,7 +271,7 @@ html {background-color: white}
       }
   
       .hello_football{
-        margin-left: -20px;
+        margin-left: 0px;
         font-size: 64px;
       }
   
