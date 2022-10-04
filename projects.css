@@ -173,6 +173,11 @@ transform: scaleX(1);
     height: 410px;
 }
 
+.long_image{
+  width: 730;
+  height: 430;
+}
+
 iframe{
   height: 480px;
   width: 720px;
@@ -258,6 +263,11 @@ iframe{
       justify-content: center;
       margin-left: 0px;
   }
+
+  .long_image{
+    width: 360;
+    height: 200;
+}
 
   iframe{
     width: 360px;
